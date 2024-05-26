@@ -1,0 +1,9 @@
+.headLink{
+    margin-right: 10px;
+}
+
+.headLink  a{
+    text-decoration: none;
+    color: rgb(144, 137, 137);
+    font-size: 18px;
+}

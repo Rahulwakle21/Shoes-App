@@ -1,0 +1,27 @@
+.rateIcon{
+    font-size: 20px;
+}
+.rateCon{
+    font-size: 22px;
+}
+.progressBar{
+    width: 50%;
+    height: 25px;
+    border: 1px solid;
+    border-radius: 6px;
+    background-color: white;
+    display: flex;
+}
+.ratingPart{
+    font-size: 18px;
+    color: white;
+    margin-right: 10px;
+}
+.progressFill{
+    height: 100%;
+    background-color: #FFA41C;
+    transition: width 0.5 ease-out !important;
+    color: white;
+    border-radius: 6px;
+    text-align: center;
+}

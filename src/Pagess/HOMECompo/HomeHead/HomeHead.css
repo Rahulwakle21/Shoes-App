@@ -1,0 +1,53 @@
+.headContent{
+    color: white;
+}
+.headContent button{
+    background-color: #D90D0A;
+    color: white;
+}
+.imgHeadShoes img{
+    height: 400px;
+
+    transform: skewY(-30deg) skewX(40deg);
+}
+.ColorHEad{
+    display: flex;
+}
+.colorChange{
+    width: 20px !important;
+    border-radius: 50%;
+    height: 20px !important;
+    background-color: red;
+    margin: 5px;
+}
+.multiShoes .shoeOne img{
+    height: 100px;
+    margin-left: 50px;
+
+}
+.multiShoes .shoeOne{
+    /* border: 1px solid white; */
+    width: 50%;
+    margin: 10px;
+}
+
+@media screen and (max-width: 900px){
+    .imgHeadShoes img{
+        height: 200px;
+    
+        transform: skewY(-30deg) skewX(40deg);
+    }
+}
+@media screen and (max-width: 725px){
+    .multiShoes{
+        display: flex;
+        margin: 0;padding: 0;
+        margin-left: 0% !important;
+    }
+    .multiShoes .shoeOne img{
+        /* height: 100px; */
+        margin-left: 0px;
+        margin-top: 30px;
+    
+    }
+}

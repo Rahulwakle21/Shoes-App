@@ -1,0 +1,22 @@
+.footerHead{
+    display: flex;
+    justify-content:center;
+    color: white;
+    gap: 10%;
+    flex-wrap: wrap;
+}
+.footerHead ul li{
+    text-decoration: none;
+    list-style: none;
+    margin: 10px;
+    display: inline-block;
+}
+.footMedia span{
+    margin: 10px;
+}
+.searchIng{
+    width: 50%;
+    height: 50px;
+    border: 1px solid white;
+    border-radius: 30px;
+}

@@ -1,0 +1,14 @@
+.card{
+    width: 250px;
+    background-color: #585757!important;
+    color: white !important;
+    position: relative;
+}
+.cardCart {
+    position: absolute;
+    bottom: 0;
+    right: 0;
+    background-color: #D90D0A;
+    padding: 15px;
+    border-top-left-radius: 12px;
+}

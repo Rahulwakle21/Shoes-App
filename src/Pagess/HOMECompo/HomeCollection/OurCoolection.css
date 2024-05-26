@@ -1,0 +1,72 @@
+.fridaySale{
+    border: 1px solid white;
+    padding: 25px;
+    display: flex;
+    justify-content: center;
+    width: 99%;
+    margin-top: 50px;
+    height: 400px;
+    flex-wrap: wrap;
+}
+.saleContent{
+    color: white;
+}
+.saleContent h2{
+    font-size: 50px;
+    line-height: 80px;
+}
+.ShowSaleImg img{
+    height: 230px;
+    width: 100%;
+    transform: skewY(-30deg) skewX(45deg);
+}
+.topNikeDuke{
+    color: white;
+    border: 1px solid white;
+    margin-top: 50px;
+    display: flex;
+    justify-content: center;
+    /* align-items: center; */
+}
+.VanShoHEad{
+    color: white;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    /* justify-content: space-around; */
+}
+.vanShoe{
+    border: 1px solid wheat;
+    border-radius: 10px;
+    width: 80%;
+}
+.blueShoes .blueShoess{
+        height: 200px;
+        width:100%;
+}
+
+@media screen and (max-width: 900px){
+
+    .ShowSaleImg img{
+        height: auto;
+        width: 50%;
+        transform: skewY(-30deg) skewX(45deg);
+        margin-left: 50px;
+    }
+    .saleContent h2{
+        font-size: 50px;
+        line-height: 50px;
+    }
+    .blueShoes{
+        width: 100%;
+    }
+    .blueShoes .blueShoess{
+        height: 150px;
+    }
+}
+
+@media screen and (max-width: 500px){
+.ShowSaleImg{
+    float:left !important;
+}
+}
